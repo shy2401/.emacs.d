@@ -1,3 +1,5 @@
+* Declaration
+  This emacs config was reprinted from https://github.com/redguardtoo/emacs.d. I changed something for my usage and upload for backup.
 * Help me, Help you
 [[https://github.com/redguardtoo/emacs.d/issues/169][Make this setup better]] if you find it useful.
 * Warning
