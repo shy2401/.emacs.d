@@ -113,7 +113,7 @@
 (require 'init-moz)
 (require 'init-gtags)
 ;; use evil mode (vi key binding)
-(require 'init-evil)
+;(require 'init-evil)
 (require 'init-sh)
 (require 'init-ctags)
 (require 'init-ace-jump-mode)
@@ -151,7 +151,7 @@
 ;;----------------------------------------------------------------------------
 ;; Variables configured via the interactive 'customize' interface
 ;;----------------------------------------------------------------------------
-(if (file-exists-p "~/.custom.el") (load-file "~/.custom.el"))
+(if (file-exists-p "~/.emacs.d/custom.el") (load-file "~/.emacs.d/custom.el"))
 
 (when (require 'time-date nil t)
    (message "Emacs startup time: %d seconds."
